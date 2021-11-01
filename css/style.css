@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: #F5F8FF;
+    font-family: 'Montserrat', sans-serif;
+    color: #141843;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 1098px;
+    height: 544px;
+    border: 20px solid #FFFFFF;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card__aside {
+    display: grid;
+    padding: 4em;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom-left-radius: 1em;
+}
+
+.card__header h3 {
+    font-size: 26px;
+}
+
+.card__price {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-align: center;
+}
+
+.card__price i {
+    font-size: 22px;
+}
+
+.card__price p {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card__text p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card__copy p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card__footer button {
+    padding: 1.3em;
+    border: none;
+    border-radius: 10px;
+    background-color: #FC4E8C;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.card__footer__two button {
+    padding: 1.3em;
+    border: none;
+    border-radius: 10px;
+    background-color: #09E1EF;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.card__footer__three button {
+    padding: 1.3em;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
